@@ -85,15 +85,15 @@ header {
 
 .image-container {
     position: relative;
-    width: 1505px; 
-    margin: 0 auto;
-    padding-bottom: 0%;
+    width: 1518px; 
 }
 
 .image-container img {
-    width: 1505px;
+    width: 1518px;
     height: auto;
 }
+
+
 
 .hero {
     display: flex;
@@ -109,7 +109,6 @@ header {
 
 .hero2 {
     display: flex;
-    padding-bottom: 0%;
     justify-content: center;  
     flex-direction: row;  
     flex-wrap: wrap;   
