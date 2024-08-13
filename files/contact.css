@@ -64,24 +64,69 @@ section {
     border-radius: 5px;
 }
 
-.about-us h1 {
+.contact-us h1 {
     font-size: 2.5em;
     margin-bottom: 0.2em;
     color:rgb(239, 84, 27);
     text-align: center;
 }
 
-.about-us h2 {
+.contact-us h2 {
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 1.5em;
     color: #000000;
 }
 
-.about-us h3 {
-    font-size: 1.3em;
-    margin-top: 1.5em;
-   color:rgb(239, 84, 27);
+.contact-info p {
+    font-size: 1.1em;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    display: inline-block;
+    background-color: #c0392b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e74c3c;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #c0392b;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #e74c3c;
 }
 
 footer {
